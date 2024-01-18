@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.todo.model.ToDoItem;
 
-public interface ToDoRepository extends JpaRepository<ToDoItem, Long> {
+public interface ToDoItemRepository extends JpaRepository<ToDoItem, Long> {
 
 }
