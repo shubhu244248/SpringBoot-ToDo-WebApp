@@ -16,7 +16,7 @@ public class ToDoItemService {
 	@Autowired
 	private ToDoItemRepository toDoItemRepository;
 
-	public List<ToDoItem> getAll() {
+	public Iterable<ToDoItem> getAll() {
 
 		return toDoItemRepository.findAll();
 	}

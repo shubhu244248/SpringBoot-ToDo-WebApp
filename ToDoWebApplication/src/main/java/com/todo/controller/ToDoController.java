@@ -14,7 +14,7 @@ public class ToDoController {
 	private ToDoItemService toDoItemService;
 	
 	@GetMapping("/")
-    public ModelAndView index() {
+    public ModelAndView home() {
         ModelAndView modelAndView = new ModelAndView("index");
         modelAndView.addObject("todoItems", toDoItemService.getAll());
         return modelAndView;
